@@ -8,10 +8,11 @@
 }
 
 #header{
-    background-color: aqua;
+    background-color: cornsilk;
 }
 
 #headerBlock{
-    background-color: blue;
+    background-color: ;
     margin:auto;
+    width : 60%;
 }
