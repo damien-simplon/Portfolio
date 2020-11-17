@@ -1,18 +1,58 @@
+/*
+blue : #5e9aff
+yellow : #ffc438
+*/
+
 *{
     margin : 0;
     padding: 0;
+    background-color: cornsilk;
 }
 
 .section{
     height : 100vh;
 }
 
-#header{
-    background-color: cornsilk;
+nav{
+    top : 0px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    width : 50%;
+}
+
+nav ul li{
+    height: 50px;
+    line-height: 45px;
+    font-size:25px;
+    width : 100%;
+    text-align: center;
+    color : #5e9aff;
+}
+
+nav ul li a{
+    display: block;
+    height : 100%;
+    width : 100%;
+}
+
+nav ul li a:hover{
+    background-color: #ffc438;
+    text-decoration: none;
 }
 
 #headerBlock{
-    background-color: ;
-    margin:auto;
+    background-color: grey;
     width : 60%;
+    margin:auto;
+    margin-top : 40vh;transform: translateY(-50%);
+}
+
+#headerBlockText{
+    float : right;
+    background-color : blue;
 }
