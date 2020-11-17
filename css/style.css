@@ -15,6 +15,7 @@ yellow : #ffc438
 
 nav{
     top : 0px;
+    height : 5vh;
     position: -webkit-sticky;
     position: sticky;
 }
@@ -26,12 +27,14 @@ nav ul{
 }
 
 nav ul li{
-    height: 50px;
-    line-height: 45px;
+    height: 5vh;
+    line-height: 5vh;
     font-size:25px;
     width : 100%;
     text-align: center;
     color : #5e9aff;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 nav ul li a{
@@ -46,13 +49,25 @@ nav ul li a:hover{
 }
 
 #headerBlock{
-    background-color: grey;
-    width : 60%;
-    margin:auto;
-    margin-top : 40vh;transform: translateY(-50%);
+    width : 40%;
+    margin-left : 10%;
+    margin-top : 45vh;
+    transform: translateY(-50%);
 }
 
 #headerBlockText{
-    float : right;
-    background-color : blue;
+    position : absolute;
+    top : 35%;
+    bottom : 65%;
+    left : 360px;
+    right : 0;
+    width : 50%;
+    margin:auto;
+    font-size:40px;
+    text-align : center;
+}
+
+#headerBlockText span{
+    width : 50%;
+    display : table-cell;
 }
